@@ -1,24 +1,31 @@
 <html>
-<head>
-    <title>Page Title</title>
-</head>
-<body>
-    <img id="robot" src="https://blob.sololearn.com/courses/robot-c.jpg"><br>
-    <button id="botonLeft" onclick="robot.src='https://blob.sololearn.com/courses/robot-l.jpg'">Left</button>
-    <button id="botonRight" onclick="robot.src='https://blob.sololearn.com/courses/robot-r.jpg'">Right</button>
-   <script>
-    let position ="l"
-    setInterval (()=>{
-        if (position ==="l"){
-          botonRight.click()
-          position = "r"
-          return
-        }
-        if (position==="r"){
-          botonLeft.click()
-          position="l"
-        }
-    }, 2000)
-   </script>
-</body>
-</html>  
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <img id="robot" src="https://blob.sololearn.com/courses/robot-c.jpg" /><br />
+        <button id="botonLeft" onclick="robot.src='https://blob.sololearn.com/courses/robot-l.jpg'">
+            Left
+        </button>
+        <button
+            id="botonRight"
+            onclick="robot.src='https://blob.sololearn.com/courses/robot-r.jpg'"
+        >
+            Right
+        </button>
+        <script>
+            let position = "l"
+            setInterval(() => {
+                if (position === "l") {
+                    botonRight.click()
+                    position = "r"
+                    return
+                }
+                if (position === "r") {
+                    botonLeft.click()
+                    position = "l"
+                }
+            }, 2000)
+        </script>
+    </body>
+</html>
