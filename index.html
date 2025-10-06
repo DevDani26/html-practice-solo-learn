@@ -1,51 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning Tasks</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 600px;
-            margin: 40px auto;
-            background: #fff;
-            padding: 24px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            background: #e3e3e3;
-            margin: 12px 0;
-            padding: 12px;
-            border-radius: 4px;
-            font-size: 1.1em;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aplica a tu visa de turismo</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* ---- NAVBAR ---- */
+    header {
+      background-color: #175bea;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      background-color: #143fa3;
+    }
+
+    nav ul li a {
+      display: block;
+      color: #100f0f;
+      text-decoration: none;
+      padding: 14px 20px;
+      transition: background 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #7fe89b;
+      color: #000;
+      border-radius: 4px;
+    }
+
+    /* ---- MAIN CONTENT ---- */
+    main {
+      padding-top: 120px; /* espacio para que no tape el header */
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #99b5f5;
+      padding: 24px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h1 {
+      color: #222;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background: #f3f4f0;
+      margin: 12px 0;
+      padding: 12px;
+      border-radius: 6px;
+      font-size: 1.1em;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    li:hover {
+      transform: scale(1.02);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+  </style>
 </head>
+
 <body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="usa.html">Visa Estados Unidos</a></li>
+        <li><a href="aus.html">Visa Australia</a></li>
+        <li><a href="suiza.html">Visa Suiza</a></li>
+        <li><a href="malta.html">Visa Malta</a></li>
+        <li><a href="canada.html">Visa Canadá</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
     <div class="container">
-        <h1>Learning Tasks</h1>
-        <ul>
-            <li>Review HTML basics</li>
-            <li>Practice CSS styling</li>
-            <li>Explore JavaScript fundamentals</li>
-            <li>Build a simple web page</li>
-            <li>Experiment with layouts and colors</li>
-        </ul>
+      <h1>Aplica a tu visa de turismo</h1>
+      <ul>
+        <li>Visa Estados Unidos</li>
+        <li>Visa Australia</li>
+        <li>Visa Suiza</li>
+        <li>Visa Malta</li>
+        <li>Visa Canadá</li>
+      </ul>
     </div>
+  </main>
 </body>
 </html>
