@@ -1,0 +1,35 @@
+/* ---- NAVBAR ---- */
+.dani-header {
+    background-color: #175bea;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dani-header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #143fa3;
+    gap: 6px
+}
+
+.dani-header ul li a {
+    display: block;
+    color: #100f0f;
+    text-decoration: none;
+    padding: 14px 20px;
+    transition: background 0.3s;
+}
+
+.dani-header ul li:hover,
+.dani-header .nav-active {
+    background-color: #7fe89b;
+    color: #000;
+    border-radius: 4px;
+}

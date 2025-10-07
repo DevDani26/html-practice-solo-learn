@@ -1,117 +1,123 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aplica a tu visa de turismo</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <title>Aprende HTML con Dani</title>
+        <link rel="stylesheet" href="/assets/styles.css" />
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background: #f4f4f4;
+                margin: 0;
+                padding: 0;
+            }
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      margin: 0;
-      padding: 0;
-    }
+            /* ---- MAIN CONTENT ---- */
+            main {
+                padding-top: 120px;
+                /* espacio para que no tape el header */
+            }
 
-    /* ---- NAVBAR ---- */
-    header {
-      background-color: #175bea;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      z-index: 1000;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
+            .container {
+                max-width: 600px;
+                margin: 0 auto;
+                background: #99b5f5;
+                padding: 24px;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                text-align: center;
+            }
 
-    nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      background-color: #143fa3;
-    }
+            h1 {
+                color: #222;
+                margin-bottom: 20px;
+            }
 
-    nav ul li a {
-      display: block;
-      color: #100f0f;
-      text-decoration: none;
-      padding: 14px 20px;
-      transition: background 0.3s;
-    }
+            ul {
+                list-style: none;
+                padding: 0;
+            }
 
-    nav ul li a:hover {
-      background-color: #7fe89b;
-      color: #000;
-      border-radius: 4px;
-    }
+            li {
+                background: #f3f4f0;
+                margin: 12px 0;
+                padding: 12px;
+                border-radius: 6px;
+                font-size: 1.1em;
+                transition: transform 0.2s, box-shadow 0.2s;
+            }
 
-    /* ---- MAIN CONTENT ---- */
-    main {
-      padding-top: 120px; /* espacio para que no tape el header */
-    }
+            li:hover {
+                transform: scale(1.02);
+                box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            }
+        </style>
+    </head>
 
-    .container {
-      max-width: 600px;
-      margin: 0 auto;
-      background: #99b5f5;
-      padding: 24px;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      text-align: center;
-    }
+    <body>
+        <header class="dani-header">
+            <nav>
+                <ul>
+                    <li class="nav-active">
+                        <a href="/index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="/01-basic-html-structure/index.html">
+                            Structure HTML
+                        </a>
+                    </li>
+                    <li>
+                        <a href="02-text-formatting-tags/index.html">
+                            Formatting tags
+                        </a>
+                    </li>
+                    <li>
+                        <a href="03-lists-and-links/index.html">
+                            List and links
+                        </a>
+                    </li>
+                    <li>
+                        <a href="04-images-and-multimedia/index.html">
+                            Images
+                        </a>
+                    </li>
+                    <li>
+                        <a href="05-tables/tablas.html">Tables</a>
+                    </li>
 
-    h1 {
-      color: #222;
-      margin-bottom: 20px;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    li {
-      background: #f3f4f0;
-      margin: 12px 0;
-      padding: 12px;
-      border-radius: 6px;
-      font-size: 1.1em;
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
-
-    li:hover {
-      transform: scale(1.02);
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-  </style>
-</head>
-
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="usa.html">Visa Estados Unidos</a></li>
-        <li><a href="aus.html">Visa Australia</a></li>
-        <li><a href="suiza.html">Visa Suiza</a></li>
-        <li><a href="malta.html">Visa Malta</a></li>
-        <li><a href="canada.html">Visa Canadá</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <div class="container">
-      <h1>Aplica a tu visa de turismo</h1>
-      <ul>
-        <li>Visa Estados Unidos</li>
-        <li>Visa Australia</li>
-        <li>Visa Suiza</li>
-        <li>Visa Malta</li>
-        <li>Visa Canadá</li>
-      </ul>
-    </div>
-  </main>
-</body>
+                    <li>
+                        <a href="06-forms/index.html">Forms </a>
+                    </li>
+                    <li>
+                        <a href="07-semantic-html/index.html">
+                            Semantic
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="08-basic-web-page-project/index.html"
+                        >
+                            Basic web page
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <h1>Aprende HTML con Dani</h1>
+                <ul>
+                    <li>Practica HTML</li>
+                    <li>Ci</li>
+                    <li>Visa Suiza</li>
+                    <li>Visa Malta</li>
+                    <li>Visa Canadá</li>
+                </ul>
+            </div>
+        </main>
+    </body>
 </html>
