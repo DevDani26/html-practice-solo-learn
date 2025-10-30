@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+     <title>Daniela Ballen - Tramitadora de Visas</title>
     <style>
         #heading {
             background-color: rgb(76, 126, 176);
@@ -9,22 +10,7 @@
         #movie {
             text-align: center;
         }
-    </style>
-</head>
-<body>
-    <h1 id="heading">Travels & visas Daniela</h1>
-    <h2 id="movie">Visas de Turismo USA</h2>
-    <p>Tu mejor aliado</p>
-</body>
-
-________________________________________________________
-
-<html>
-    <head>
-        <title>Daniela Ballen - Tramitadora de Visas</title>
-
-        <style>
-             body{
+          body{
                 background-color: rgb(191, 190, 221);
 
         
@@ -35,9 +21,18 @@ ________________________________________________________
                     color:black;
                     text-align:center;
                 }
-        </style>
-    </head>
-    <body>
+    </style>
+      <?php include "../templates/styles.php"; ?>
+</head>
+<body>
+    <?php include "../templates/header.php"; ?>
+    <h1 id="heading">Travels & visas Daniela</h1>
+    <h2 id="movie">Visas de Turismo USA</h2>
+    <p>Tu mejor aliado</p>
+
+
+
+   
     
            
 

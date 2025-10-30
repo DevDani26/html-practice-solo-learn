@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <?php include "../templates/styles.php"; ?>
 </head>
 <body>
+    <?php include "../templates/header.php"; ?>
     <p>Te decimos <b>Hola</b> y <strong>TA AYUDAMOS EN LO QUE NECESITES</strong>.</p>
 <p>La Visa B1/B2<i> Es la visa de turismo </i> y <em>negocios</em>.</p>
 <p>El proceso es muy facil y <u>rapido</u> y yo puedo <mark>ayudarte</mark>.</p>

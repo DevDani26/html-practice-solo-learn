@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
     <style>
         #heading {
@@ -9,35 +10,18 @@
         #movie {
             text-align: center;
         }
+        h2,p{
+            color:black;
+            text-align:center;
+        }
     </style>
+    <?php include "../templates/styles.php"; ?>
 </head>
 <body>
+    <?php include "../templates/header.php"; ?>
     <h1 id="heading">Travels & visas Daniela</h1>
     <h2 id="movie">Visas de Turismo USA</h2>
     <p>Tu mejor aliado</p>
-</body>
-
-________________________________________________________
-
-<html>
-    <head>
-        <title>Daniela Ballen - Tramitadora de Visas</title>
-
-        <style>
-             body{
-                background-color: rgb(191, 190, 221);
-
-        
-                color: white;
-                text-align: center;
-            } 
-               h2,p{
-                    color:black;
-                    text-align:center;
-                }
-        </style>
-    </head>
-    <body>
         <ul id="profile">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" 
      alt="Logo HTML5" width="200">

@@ -1,12 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* ---- NAVBAR ---- */
 .dani-header {
     background-color: #175bea;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    height: 70px;
+    margin-bottom: 70px;
 }
 
 .dani-header nav ul {
@@ -16,7 +26,7 @@
     display: flex;
     justify-content: center;
     background-color: #2710da;
-    gap: 6px
+    gap: 6px;
 }
 
 .dani-header ul li a {
@@ -32,4 +42,13 @@
     background-color: #7fe89b;
     color: #000;
     border-radius: 4px;
+}
+
+.dani-header li {
+    background: #f3f4f0;
+    margin: 12px 0;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1.1em;
+    transition: transform 0.2s, box-shadow 0.2s;
 }

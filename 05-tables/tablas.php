@@ -12,7 +12,8 @@
 
   </style>
 </head>
-<body>
+<body> 
+    <?php include "../templates/header.php"; ?>
   <h2>Ejemplo de Tabla en HTML</h2>
 
   <table style="border-collapse: collapse; width: 60%; text-align: center;" class="dani-table">

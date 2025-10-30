@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <?php include "../templates/styles.php"; ?>
     <style>
       p {
         color: purple;
@@ -40,6 +40,7 @@
   </head>
 
   <body>
+    <?php include "../templates/header.php"; ?>
     <p>Our back to <u>school</u> sale from July 15th.</p>
     <p>
       <em>Programming</em> is a valuable skill in today's digital age. Learning
