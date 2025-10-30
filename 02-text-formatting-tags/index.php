@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <?php include "../templates/styles.php"; ?>
 </head>
+
 <body>
     <?php include "../templates/header.php"; ?>
     <p>Te decimos <b>Hola</b> y <strong>TA AYUDAMOS EN LO QUE NECESITES</strong>.</p>
-<p>La Visa B1/B2<i> Es la visa de turismo </i> y <em>negocios</em>.</p>
-<p>El proceso es muy facil y <u>rapido</u> y yo puedo <mark>ayudarte</mark>.</p>
-<p><del>Texto eliminado</del> y <ins>texto insertado</ins>.</p>
+    <p>La Visa B1/B2<i> Es la visa de turismo </i> y <em>negocios</em>.</p>
+    <p>El proceso es muy facil y <u>rapido</u> y yo puedo <mark>ayudarte</mark>.</p>
+    <p style="font-family: 'Papyrus'"><del>Texto eliminado</del> y <ins>texto insertado</ins>.</p>
+    <mark>GRACIAS POR visitarnos</mark>
+</body>
 
-</body><mark>GRACIAS POR visitarnos</mark>
 </html>
