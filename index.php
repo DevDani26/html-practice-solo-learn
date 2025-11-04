@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aprende HTML con Dani</title>
+    <title>Aprende HTML con Danelita</title>
     <?php include "templates/styles.php"; ?>
     <style>
     /* ---- MAIN CONTENT ---- */
