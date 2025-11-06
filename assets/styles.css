@@ -1,14 +1,14 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Jolly Lodger", system-ui;
+    font-family: "Unkempt", cursive;
     font-weight: 400;
     font-style: normal;
 }
 
 /* ---- NAVBAR ---- */
 .dani-header {
-    background-color: #175bea;
+    background-color: #2951a7;
     position: relative;
     top: 0;
     left: 0;
@@ -51,4 +51,67 @@ body {
     border-radius: 6px;
     font-size: 1.1em;
     transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.dani-footer {
+    background: #3da2d8;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.dani-footer .footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.dani-footer .footer-section h3,
+.dani-footer .footer-section h4 {
+    color: #f8c146;
+    margin-bottom: 15px;
+}
+
+.dani-footer .footer-section p,
+.dani-footer .footer-section a {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ddd;
+}
+
+.dani-footer .footer-section a {
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+    transition: color 0.3s;
+}
+
+.dani-footer .footer-section a:hover {
+    color: #fff;
+}
+
+.dani-footer .social-links a {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.dani-footer .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 15px;
+    font-size: 13px;
+    color: #bbb;
+}
+
+/* 💡 Responsive ajustes */
+@media (max-width: 768px) {
+    .dani-footer {
+        text-align: center;
+    }
+    .dani-footer .footer-section ul {
+        padding: 0;
+        list-style: none;
+    }
 }

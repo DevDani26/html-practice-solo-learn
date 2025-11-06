@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aprende HTML con Danelita</title>
+    <title>Aprende HTML con Dani</title>
     <?php include "templates/styles.php"; ?>
     <style>
     /* ---- MAIN CONTENT ---- */
@@ -46,16 +46,17 @@
 
     <main>
         <div class="container">
-            <h1>Aprende HTML con Dani</h1>
+            <h1>Aprende HTML con Danielita</h1>
             <ul>
                 <li>Conoce sobre HTML</li>
                 <li>Practica HTML</li>
                 <li>Estudia HTML</li>
                 <li>Gana dinero con HTML</li>
-                <li>Trabaja con HTML</li>
+                <li>vive con HTML</li>
             </ul>
         </div>
     </main>
+    <?php include "./templates/footer.php"; ?>
 </body>
 
 </html>
